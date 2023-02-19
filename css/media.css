@@ -32,6 +32,12 @@
         padding-right: 5px;
     }
     /* PAGE ANNOUC END */
+    /* PAGE ANNOUCEMENT START */
+    .ann-sec-slide,
+    .ann-sec-left{
+        width: 600px;
+    }
+    /* PAGE ANNOUCEMENT END */
 }
 
 
@@ -135,6 +141,28 @@
         display: none;
     }
     /* ANNOUC PAGE END */
+    /* PAGE ANNOUCEMENT START */
+    .announcement-main{
+        flex-direction: column;
+        height: 2000px;
+    }
+    .ann-sec-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .ann-sec-slide,
+    .ann-sec-callBox{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .ann-sec-callBox{
+        padding: 15px;
+        border: none;
+    }
+    .ann-sec-right{
+        max-width: 100%;
+    }
+    /* PAGE ANNOUCEMENT END */
 }
 @media (min-width: 568px) and (max-width: 767px) {
     marquee{
@@ -385,6 +413,28 @@
             padding-left: 0;
         }
         /* ANNOUC PAGE END */
+            /* PAGE ANNOUCEMENT START */
+    .announcement-main{
+        flex-direction: column;
+        height: 2000px;
+    }
+    .ann-sec-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .ann-sec-slide,
+    .ann-sec-callBox{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .ann-sec-callBox{
+        padding: 15px;
+        border: none;
+    }
+    .ann-sec-right{
+        max-width: 100%;
+    }
+    /* PAGE ANNOUCEMENT END */
 }
 @media (min-width: 320px) and (max-width: 567px) {
     marquee{
@@ -442,19 +492,28 @@
         font-size: 13px;
     }
     .sec-4-title h2{
-        font-size: 23px;
+        width: 100%;
+        font-size: 20px;
     }
     .sec-4-title h3{
+        width: 100%;
         font-size: 13px;
     }
     .sec-4-bott-par h3{
-        font-size: 18px;
+        width: 100%;
+        font-size: 15px;
+        padding: 0 10px;
     }
     .sec-4-button{
         font-size: 13px;
     }
     .sec-4-line{
         width: 200px;
+        margin: 20px 0;
+    }
+    .sec-4-bott-button{
+        height: 60px;
+        margin-bottom: 15px;
     }
     .main-sec-5{
         background-size: cover;
@@ -482,7 +541,9 @@
         padding: 15px 0;
     }
     .sec-6-cont h3{
+        width: 100%;
         font-size: 15px;
+        padding: 0 10px;
     }
     .sec-7-tit h2{
         font-size: 22px;
@@ -504,24 +565,26 @@
         width: 100%;
     }
     .sec-3-cont{
-        width: 250px;
+        width: 100%;
         height: 250px;
-        align-self: flex-end;
-        left: 35px;
-        border: 1px solid #c79c6e;
+        align-items: center;
+        left: 0;
+        border: 0;
         padding: 20px;
     }
     .sec-3-bg{
-        width: 250px;
+        width: 100%;
         height: 250px;
     }
     .main-sec-3{
-        padding: 25px 25px !important;
+        padding: 0 !important;
+        flex-direction: column;
     }
     .sec-3-cont h2{
         font-size: 22px;
     }
     .sec-3-cont p{
+        text-align: center;
         font-size: 13px;
     }
     #call{
@@ -577,9 +640,32 @@
     .footer-menu-tit h3, 
     .footer-contact-tit h3, 
     .footer-soc-tit h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .footer-menu-cont ul li a{
+        font-size: 13px;
+    }
+    .footer-contact-cont p{
+        font-size: 13px;
+    }
+    .footer-top-box{
+        flex-direction: column;
+        height: 400px;
+        padding-left: 25px;
+    }
+    footer{
+        height: 450px;
+    }
+    .footer-menu-box{
+        width: 100%;
+        height: 150px;
+    }
+    .footer-contact-box{
+        width: 100%;
+        height: 100px;
+    }
+    .copyright-box p{
+        text-align: center;
         font-size: 13px;
     }
     .slide-img, .slide-img2{
@@ -677,4 +763,65 @@
         padding-left: 0;
     }
     /* ANNOUC PAGE END */
+                /* PAGE ANNOUCEMENT START */
+    .announcement-main{
+        flex-direction: column;
+        height: 2000px;
+    }
+    .ann-sec-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .ann-sec-slide,
+    .ann-sec-callBox{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .ann-sec-callBox{
+        padding: 15px;
+        border: none;
+    }
+    .ann-sec-right{
+        max-width: 100%;
+    }
+    /* PAGE ANNOUCEMENT END */
+    /* PAGE ANNOUCEMENT START */
+    .announcement-main{
+        flex-direction: column;
+        height: 1800px;
+    }
+    .ann-sec-left{
+        max-width: 100%;
+        margin: 0;
+    }
+    .ann-sec-slide,
+    .ann-sec-callBox{
+        width: 100%;
+        height: 250px;
+        justify-content: flex-start;
+    }
+    .ann-sec-callBox{
+        padding: 15px;
+        border: none;
+    }
+    .ann-sec-right{
+        max-width: 100%;
+    }
+    .ann-slide-tit h3,
+    .ann-slide-cont-tit h3,
+    .slide-filter-tit h3{
+        font-size: 18px;
+    }
+    .ann-slide-cont-par p,
+    .similar-box-right p{
+        font-size: 13px;
+    }
+    .ann-slide-cont-price h2{
+        font-size: 20px;
+    }
+    .amd-icon{
+        width: 16px;
+        height: 16px;
+    }
+    /* PAGE ANNOUCEMENT END */
 }

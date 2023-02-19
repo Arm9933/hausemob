@@ -121,7 +121,7 @@ function zoom() {
 
     next.onclick = () => {
         if(zoom.classList.value == 'ann-sec-slide') {
-            let step = client-649;
+            // let step = client-649;
             let step1 = -client+649;
 
             flag += step1;
@@ -138,12 +138,12 @@ function zoom() {
             }
         }
         else{
-            let step = client-649;
-            let step1 = -client+270;
+            // let step = client-649;
+            let step1 = -client+224;
 
+            console.log(client)
             flag += step1;
             flag1 = flag / annItem.length;
-            console.log(zoom.classList.value);
 
             for(let i=0; i < annItem.length; i++){
                 if(flag1 <= step1) {
